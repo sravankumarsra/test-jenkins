@@ -1,0 +1,12 @@
+brooklyn.catalog:
+  id: com.marolix.MySampleInCatalog
+  version: "1.0"
+  itemType: template
+  description: My Sample
+  displayName: MySample
+  iconUrl: classpath:///sample-icon.png
+  libraries:
+  - file:///Path/to/archetype/sample/target/jenkins-project-1.0-SNAPSHOT.jar
+  item:
+    services:
+    - type: com.marolix.MySample
